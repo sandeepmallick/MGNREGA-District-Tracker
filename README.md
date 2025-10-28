@@ -162,3 +162,5 @@ This project is released under the MIT License.
 
 🖼️ Preview
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/aa8f916d-ff4f-4154-9514-73d8eefdfb56" />
+
+https://www.loom.com/share/8ca7bace4f6c4cd39140e2e76608caa8
