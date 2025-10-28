@@ -163,5 +163,4 @@ This project is released under the MIT License.
 
 
 🖼️ Preview
-https://github.com/sandeepmallick/MGNREGA-District-Tracker/issues/1#issue-3561835031
-
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/aa8f916d-ff4f-4154-9514-73d8eefdfb56" />
