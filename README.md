@@ -82,22 +82,31 @@ Responsive design optimized for both smartphones and desktop users
 
 
 # 📦 Installation & Setup
-1️⃣ Clone the Repository
+# 1️⃣ Clone the Repository
 bash
+
 Copy code
+
 git clone https://github.com/yourusername/mgnrega-district-tracker.git
+
 cd mgnrega-district-tracker
-2️⃣ Install Dependencies
+
+# 2️⃣ Install Dependencies
 bash
+
 Copy code
+
 npm install
-3️⃣ Add Your API Key
+
+# 3️⃣ Add Your API Key
 Create a .env file in the root folder:
 
 ini
 Copy code
-MGNREGA_API_KEY=your_data_gov_in_api_key_here
-4️⃣ Run the Development Server
+
+MGNREGA_API_KEY=579b464db66ec23bdd000001f9974a78b0124f856dcb93c1fcb2f4df
+
+# 4️⃣ Run the Development Server
 bash
 Copy code
 npm run dev
@@ -143,12 +152,16 @@ Stateless frontend hosting for easy scaling
 
 CDN delivery (via Vercel) for fast load times across India
 
-🧑‍💻 Developer
+# 🧑‍💻 Developer
 Author: Sandeep mallick
 Year: 2025
 Project Type: Academic / Social Welfare Data Visualization
 Live Demo: mgnrega-district-tracker.vercel.app
 
-📜 License
+# 📜 License
 This project is released under the MIT License.
+
+
+🖼️ Preview
+https://github.com/sandeepmallick/MGNREGA-District-Tracker/issues/1#issue-3561835031
 
