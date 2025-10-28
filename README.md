@@ -78,16 +78,13 @@ Responsive design optimized for both smartphones and desktop users
                              ▼
              ┌────────────────────────────────┐
              │ MGNREGS Open API (data.gov.in)  │
-             └────────────────────────────────┘
 
 
 # 📦 Installation & Setup
 # 1️⃣ Clone the Repository
-bash
-
-Copy code
-
-git clone https://github.com/yourusername/mgnrega-district-tracker.git
+    └┘ bash
+      Copy code
+      git clone https://github.com/yourusername/mgnrega-district-tracker.git
 
 cd mgnrega-district-tracker
 
