@@ -79,3 +79,76 @@ Responsive design optimized for both smartphones and desktop users
              ┌────────────────────────────────┐
              │ MGNREGS Open API (data.gov.in)  │
              └────────────────────────────────┘
+
+
+# 📦 Installation & Setup
+1️⃣ Clone the Repository
+bash
+Copy code
+git clone https://github.com/yourusername/mgnrega-district-tracker.git
+cd mgnrega-district-tracker
+2️⃣ Install Dependencies
+bash
+Copy code
+npm install
+3️⃣ Add Your API Key
+Create a .env file in the root folder:
+
+ini
+Copy code
+MGNREGA_API_KEY=your_data_gov_in_api_key_here
+4️⃣ Run the Development Server
+bash
+Copy code
+npm run dev
+5️⃣ Open in Browser
+Visit: http://localhost:3000
+
+# 🧪 Example Data Visualized
+Metrics Displayed:
+
+Total Workers Employed: e.g., 32.1K people employed
+
+Total Projects Taken Up: 23,771
+
+Average Wage: ₹275/day/person
+
+Average Days/Household: 21
+
+Visuals include:
+
+Workers Trend (Last 6 Months)
+
+Works Taken Up Trend (Last 6 Months)
+
+Comparative analysis vs last month
+
+# 🧩 Design Philosophy
+The interface is designed for citizens with minimal digital literacy:
+
+Clear color-coded cards
+
+Use of icons for each metric
+
+Local language labels (for e.g., Hindi, Telugu, Odia)
+
+Minimal text, maximum visuals
+
+# 🌏 Scalability & Production Readiness
+API Caching Layer to reduce dependency on live API uptime
+
+Scheduled auto-refresh (every 24 hours)
+
+Stateless frontend hosting for easy scaling
+
+CDN delivery (via Vercel) for fast load times across India
+
+🧑‍💻 Developer
+Author: Sandeep mallick
+Year: 2025
+Project Type: Academic / Social Welfare Data Visualization
+Live Demo: mgnrega-district-tracker.vercel.app
+
+📜 License
+This project is released under the MIT License.
+
