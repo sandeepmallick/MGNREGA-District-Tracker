@@ -81,32 +81,33 @@ Responsive design optimized for both smartphones and desktop users
 
 
 # 📦 Installation & Setup
-# 1️⃣ Clone the Repository
-    └┘ bash
+1️⃣ Clone the Repository
+   bash
+   
       Copy code
       git clone https://github.com/yourusername/mgnrega-district-tracker.git
 
 cd mgnrega-district-tracker
 
-# 2️⃣ Install Dependencies
-bash
+2️⃣ Install Dependencies
+   bash
+   
+    Copy code
+    npm install
 
-Copy code
-
-npm install
-
-# 3️⃣ Add Your API Key
+3️⃣ Add Your API Key
 Create a .env file in the root folder:
 
-ini
-Copy code
-
-MGNREGA_API_KEY=579b464db66ec23bdd000001f9974a78b0124f856dcb93c1fcb2f4df
-
-# 4️⃣ Run the Development Server
-bash
-Copy code
-npm run dev
+   ini
+    
+    Copy code
+    MGNREGA_API_KEY=579b464db66ec23bdd000001f9974a78b0124f856dcb93c1fcb2f4df
+    
+4️⃣ Run the Development Server
+   bash
+   
+    npm run dev
+    
 5️⃣ Open in Browser
 Visit: http://localhost:3000
 
