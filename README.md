@@ -56,11 +56,26 @@ Ensures that the website remains available even when the API is down
 
 Responsive design optimized for both smartphones and desktop users
 
-# 🧰 Tech Stack
-Layer	Technology
-Frontend	React.js, Tailwind CSS, Recharts
-Backend	Node.js (Express), Axios
-API Source	MGNREGS Open API – data.gov.in
-
-Hosting	Vercel (Frontend), Optional Backend on Render/Express
-Caching	JSON file cache / server memory store
+# 🏗️ System Architecture
+                ┌────────────────────────┐
+                │  User (Web/Mobile)     │
+                └────────────┬───────────┘
+                             │
+                             ▼
+               ┌──────────────────────────┐
+               │   React Frontend (Vercel)│
+               │  - Charts, UI, Language   │
+               └────────────┬─────────────┘
+                             │
+                             ▼
+             ┌────────────────────────────────┐
+             │ Node.js Server (Express)        │
+             │ - Fetches data from MGNREGS API │
+             │ - Caches responses (24h)        │
+             │ - Returns JSON to frontend      │
+             └────────────────────────────────┘
+                             │
+                             ▼
+             ┌────────────────────────────────┐
+             │ MGNREGS Open API (data.gov.in)  │
+             └────────────────────────────────┘
